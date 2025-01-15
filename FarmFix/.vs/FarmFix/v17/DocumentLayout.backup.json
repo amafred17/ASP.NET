@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|c:\\users\\fred.amanyire\\source\\repos\\farmfix\\farmfix\\views\\home\\expenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|solutionrelative:farmfix\\views\\home\\expenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|c:\\users\\fred.amanyire\\source\\repos\\farmfix\\farmfix\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|solutionrelative:farmfix\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|c:\\users\\fred.amanyire\\source\\repos\\farmfix\\farmfix\\views\\home\\createeditexpenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|solutionrelative:farmfix\\views\\home\\createeditexpenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|c:\\users\\fred.amanyire\\source\\repos\\farmfix\\farmfix\\models\\createeditexpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|solutionrelative:farmfix\\models\\createeditexpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|c:\\users\\fred.amanyire\\source\\repos\\farmfix\\farmfix\\models\\expenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|solutionrelative:farmfix\\models\\expenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|c:\\users\\fred.amanyire\\source\\repos\\farmfix\\farmfix\\models\\expensesfarmfixcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|solutionrelative:farmfix\\models\\expensesfarmfixcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|c:\\users\\fred.amanyire\\source\\repos\\farmfix\\farmfix\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|solutionrelative:farmfix\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|c:\\users\\fred.amanyire\\source\\repos\\farmfix\\farmfix\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|solutionrelative:farmfix\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|c:\\users\\fred.amanyire\\source\\repos\\farmfix\\farmfix\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|solutionrelative:farmfix\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|c:\\users\\fred.amanyire\\source\\repos\\farmfix\\farmfix\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|solutionrelative:farmfix\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|c:\\users\\fred.amanyire\\source\\repos\\farmfix\\farmfix\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFF44C29-1063-485F-98FD-F695FC9E8A37}|FarmFix\\FarmFix.csproj|solutionrelative:farmfix\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Expenses.cshtml",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Views\\Home\\Expenses.cshtml",
+              "RelativeDocumentMoniker": "FarmFix\\Views\\Home\\Expenses.cshtml",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Views\\Home\\Expenses.cshtml",
+              "RelativeToolTip": "FarmFix\\Views\\Home\\Expenses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T20:05:28.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "FarmFix\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "FarmFix\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T20:04:39.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateEditExpenses.cs",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Models\\CreateEditExpenses.cs",
+              "RelativeDocumentMoniker": "FarmFix\\Models\\CreateEditExpenses.cs",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Models\\CreateEditExpenses.cs",
+              "RelativeToolTip": "FarmFix\\Models\\CreateEditExpenses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:38:37.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FarmFix\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FarmFix\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAMwCEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:41:25.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateEditExpenses.cshtml",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Views\\Home\\CreateEditExpenses.cshtml",
+              "RelativeDocumentMoniker": "FarmFix\\Views\\Home\\CreateEditExpenses.cshtml",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Views\\Home\\CreateEditExpenses.cshtml",
+              "RelativeToolTip": "FarmFix\\Views\\Home\\CreateEditExpenses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T18:39:05.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Expenses.cs",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Models\\Expenses.cs",
+              "RelativeDocumentMoniker": "FarmFix\\Models\\Expenses.cs",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Models\\Expenses.cs",
+              "RelativeToolTip": "FarmFix\\Models\\Expenses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:51:07.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExpensesFarmFixContext.cs",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Models\\ExpensesFarmFixContext.cs",
+              "RelativeDocumentMoniker": "FarmFix\\Models\\ExpensesFarmFixContext.cs",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Models\\ExpensesFarmFixContext.cs",
+              "RelativeToolTip": "FarmFix\\Models\\ExpensesFarmFixContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T19:18:14.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FarmFix\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FarmFix\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T20:04:42.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "FarmFix\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "FarmFix\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T20:04:31.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "FarmFix\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "FarmFix\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T20:04:04.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FarmFix\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\FarmFix\\FarmFix\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FarmFix\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T20:03:57.916Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
