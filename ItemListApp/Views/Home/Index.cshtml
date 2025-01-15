@@ -1,0 +1,169 @@
+﻿@model List<ItemListApp.Models.Item>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Item List</h2>
+
+    <div class="row">
+        <!-- Item Selection Form -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <!-- Dropdown for Item Selection -->
+                    <div class="mb-3">
+                        <label for="itemList" class="form-label">Select an Item:</label>
+                        <select id="itemList" class="form-select">
+                            @foreach (var item in Model)
+                            {
+                                <option value="@item.Id" data-price="@item.Price" data-image="@item.ImageUrl" data-name="@item.Name">@item.Name</option>
+                            }
+                        </select>
+                    </div>
+
+                    <!-- Image Display -->
+                    <div class="text-center mb-3">
+                        <img id="itemImage" src="" alt="Item Image" class="img-fluid rounded" style="max-width: 200px;" />
+                    </div>
+
+                    <!-- Price Input -->
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Price:</label>
+                        <input type="text" id="price" class="form-control" readonly />
+                    </div>
+
+                    <!-- Quantity Input -->
+                    <div class="mb-3">
+                        <label for="quantity" class="form-label">Quantity:</label>
+                        <input type="number" id="quantity" class="form-control" min="1" value="1" />
+                    </div>
+
+                    <!-- Add to Cart Button -->
+                    <div class="text-center">
+                        <button id="addToCartButton" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cart Display -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Cart</h5>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cartItems">
+                            <!-- Cart items will be dynamically added here -->
+                        </tbody>
+                    </table>
+                    <div class="text-end">
+                        <h5>Total Cost: <span id="cartTotalCost">0.00</span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Cart data
+        let cart = [];
+
+        // Function to update the image and price based on the selected item
+        function updateItemDetails() {
+            var selectedOption = document.getElementById("itemList").options[document.getElementById("itemList").selectedIndex];
+            var price = selectedOption.getAttribute("data-price");
+            var imageUrl = selectedOption.getAttribute("data-image");
+
+            document.getElementById("price").value = price;
+            document.getElementById("itemImage").src = imageUrl;
+        }
+
+        // Automatically select the first item and update details when the page loads
+        document.addEventListener("DOMContentLoaded", function () {
+            updateItemDetails();
+        });
+
+        // Update details when the user selects a different item
+        document.getElementById("itemList").addEventListener("change", updateItemDetails);
+
+        // Add item to cart
+        document.getElementById("addToCartButton").addEventListener("click", function () {
+            var selectedOption = document.getElementById("itemList").options[document.getElementById("itemList").selectedIndex];
+            var itemId = parseInt(selectedOption.value);
+            var itemName = selectedOption.getAttribute("data-name");
+            var price = parseFloat(selectedOption.getAttribute("data-price"));
+            var imageUrl = selectedOption.getAttribute("data-image");
+            var quantity = parseInt(document.getElementById("quantity").value);
+
+            // Validate quantity
+            if (isNaN(quantity) || quantity < 1) {
+                alert("Please enter a valid quantity.");
+                return;
+            }
+
+            // Check if the item is already in the cart
+            var existingItem = cart.find(item => item.itemId === itemId);
+            if (existingItem) {
+                existingItem.quantity += quantity; // Update quantity if item exists
+            } else {
+                // Add new item to the cart
+                cart.push({
+                    itemId: itemId,
+                    name: itemName,
+                    price: price,
+                    imageUrl: imageUrl,
+                    quantity: quantity
+                });
+            }
+
+            // Update the cart display
+            updateCartDisplay();
+        });
+
+        // Function to update the cart display
+        function updateCartDisplay() {
+            var cartItems = document.getElementById("cartItems");
+            var cartTotalCost = document.getElementById("cartTotalCost");
+
+            // Clear the cart display
+            cartItems.innerHTML = "";
+
+            // Add each item to the cart display
+            var totalCost = 0;
+            cart.forEach((item, index) => {
+                var row = document.createElement("tr");
+                row.innerHTML = `
+                            <td><a href="#" class="cart-item" data-index="${index}">${item.name}</a></td>
+                            <td>${item.price.toFixed(2)}</td>
+                            <td>${item.quantity}</td>
+                            <td>${(item.price * item.quantity).toFixed(2)}</td>
+                        `;
+                cartItems.appendChild(row);
+
+                // Calculate total cost
+                totalCost += item.price * item.quantity;
+            });
+
+            // Update the total cost
+            cartTotalCost.textContent = totalCost.toFixed(2);
+
+            // Add click event listeners to cart items
+            document.querySelectorAll(".cart-item").forEach(cartItem => {
+                cartItem.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    var index = parseInt(this.getAttribute("data-index"));
+                    var item = cart[index];
+                    document.getElementById("itemImage").src = item.imageUrl;
+                });
+            });
+        }
+    </script>
+}

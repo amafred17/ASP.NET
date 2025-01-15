@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ItemListApp.props" />
+</Project>
