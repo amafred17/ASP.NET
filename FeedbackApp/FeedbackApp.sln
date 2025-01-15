@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedbackApp", "FeedbackApp\FeedbackApp.csproj", "{83220D58-05F9-4227-BFCF-365E26F4DB01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83220D58-05F9-4227-BFCF-365E26F4DB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83220D58-05F9-4227-BFCF-365E26F4DB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83220D58-05F9-4227-BFCF-365E26F4DB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83220D58-05F9-4227-BFCF-365E26F4DB01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D688A2CF-0BE4-4C26-92C9-9182793AFE54}
+	EndGlobalSection
+EndGlobal
