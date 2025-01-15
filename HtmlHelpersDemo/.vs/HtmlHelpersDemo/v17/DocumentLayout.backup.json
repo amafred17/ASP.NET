@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fred.amanyire\\source\\repos\\HtmlHelpersDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA178FB-030D-479C-99D7-915ECEDFC2E2}|HtmlHelpersDemo\\HtmlHelpersDemo.csproj|c:\\users\\fred.amanyire\\source\\repos\\htmlhelpersdemo\\htmlhelpersdemo\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDA178FB-030D-479C-99D7-915ECEDFC2E2}|HtmlHelpersDemo\\HtmlHelpersDemo.csproj|solutionrelative:htmlhelpersdemo\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA178FB-030D-479C-99D7-915ECEDFC2E2}|HtmlHelpersDemo\\HtmlHelpersDemo.csproj|c:\\users\\fred.amanyire\\source\\repos\\htmlhelpersdemo\\htmlhelpersdemo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA178FB-030D-479C-99D7-915ECEDFC2E2}|HtmlHelpersDemo\\HtmlHelpersDemo.csproj|solutionrelative:htmlhelpersdemo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA178FB-030D-479C-99D7-915ECEDFC2E2}|HtmlHelpersDemo\\HtmlHelpersDemo.csproj|c:\\users\\fred.amanyire\\source\\repos\\htmlhelpersdemo\\htmlhelpersdemo\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA178FB-030D-479C-99D7-915ECEDFC2E2}|HtmlHelpersDemo\\HtmlHelpersDemo.csproj|solutionrelative:htmlhelpersdemo\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\HtmlHelpersDemo\\HtmlHelpersDemo\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "HtmlHelpersDemo\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\HtmlHelpersDemo\\HtmlHelpersDemo\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "HtmlHelpersDemo\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvz4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T12:32:34.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\HtmlHelpersDemo\\HtmlHelpersDemo\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "HtmlHelpersDemo\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\HtmlHelpersDemo\\HtmlHelpersDemo\\Controllers\\UserController.cs",
+              "RelativeToolTip": "HtmlHelpersDemo\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:31:45.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\fred.amanyire\\source\\repos\\HtmlHelpersDemo\\HtmlHelpersDemo\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "HtmlHelpersDemo\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\fred.amanyire\\source\\repos\\HtmlHelpersDemo\\HtmlHelpersDemo\\Models\\UserModel.cs",
+              "RelativeToolTip": "HtmlHelpersDemo\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:31:07.58Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
